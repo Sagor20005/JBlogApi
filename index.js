@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors")
 const router = require('./routes')
 
-let PORT = 2001555;
+let PORT = 6555;
 const app = express()
 app.use(express.json())
 app.use(express.static("upload"))
